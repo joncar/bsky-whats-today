@@ -9,6 +9,7 @@ const FRI = 5;
 const SAT = 6;
 
 const POSTS = [
+  {"by":"did:plc:r2p4n5f4zibm76kgwgobpxg7","post":"3kbpwtl4cgh2g","day":MON}, //I think you forgot to set your clock back. Its Monday
   {"by":"did:plc:n6heowum43kppktdogz7ht3o","post":"3kbncgsvuc42y","day":MON}, //*are ** I hate Mondays
   {"by":"did:plc:xux2nvj7ctb4ucltdryonjvn","post":"3kbjl3vxrwp26","day":TUE}, //i shoulda saved this for trash Tuesday
   {"by":"did:plc:ahlsm4d5y3sgwk3mmnj3spgg","post":"3kbjiru23fv2n","day":TUE}, //Lemon it's Tuesday
@@ -21,7 +22,11 @@ const POSTS = [
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kbi4dg5xek2g","day":FRI}, //well at least it's Friday
   {"by":"did:plc:w3kny76pvkomvdg2u5jwwkzl","post":"3kbotraq4ly2r","day":SAT}, //Morning folks, happy Saturday! I hope you have an amazing weekend.
   {"by":"did:plc:4sisaumtbpmsotveogple4vi","post":"3kbotihlh4s2h","day":SAT}, //Morning everyone hope you have a super Saturday
-  {"by":"did:plc:ov2uxf5vmrpqzo3mmrtymr3y","post":"3kb3s2dcl4w2p","day":SUN}, //It’s not even 9 AM on a Sunday and I can’t stop thinking about this meme
+  {"by":"did:plc:f5a4pirhmyvgct233zvu5see","post":"3kb5ywydgyo2x","day":SUN}, //It’s not even 9 AM on a Sunday and I can’t stop thinking about this meme
+  {"by":"did:plc:a25kqnnqd7g4bvahjwz2enkh","post":"3kbpuwlclcj2y","day":SAT}, //I cant believe they would call Jim Jordan an “insurrectionist.” Thats like making the ridiculous claim that today is “Saturday.” www.nbcnews.com/news/amp/rcn...
+  {"by":"did:plc:whdxr67wpjzp2h5ihddaebhk","post":"3kb6fb75iwi2e","day":SAT}, //Happy Saturday witches!
+  {"by":"did:plc:tx6rqyyihlfxvqs43jegzwkh","post":"3kb6fbvmmi32q","day":SAT}, //It's Saturday
+  {"by":"did:plc:ktxyd6zxtwhawqxelgnm4wni","post":"3kbpye5zfv22t","day":SAT}, //Hey y’all, what are you up to on this Saturday? It’s gloomy here in Calgary. 😭 🇨🇦
 ];
 
 function getRandomInt(max) {
