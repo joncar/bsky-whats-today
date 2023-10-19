@@ -27,6 +27,12 @@ const POSTS = [
   {"by":"did:plc:whdxr67wpjzp2h5ihddaebhk","post":"3kb6fb75iwi2e","day":SAT}, //Happy Saturday witches!
   {"by":"did:plc:tx6rqyyihlfxvqs43jegzwkh","post":"3kb6fbvmmi32q","day":SAT}, //It's Saturday
   {"by":"did:plc:ktxyd6zxtwhawqxelgnm4wni","post":"3kbpye5zfv22t","day":SAT}, //Hey y’all, what are you up to on this Saturday? It’s gloomy here in Calgary. 😭 🇨🇦
+  {"by":"did:plc:pxnsx3frzu6cuuowkqyzydv3","post":"3kbtkflv5eg2y","day":SUN}, //It’s Sunday night, here’s a photo of Fox
+  {"by":"did:plc:a4put3mvd5pvc7id6ssfbqnb","post":"3kbtjgujufw2f","day":SUN}, //it's sunday already? I don't feel relaxed at all from the weekend.
+  {"by":"did:plc:xn6v5l3dbtdyl26j7l245xpw","post":"3kbtixdt6gd2e","day":SUN}, //It’s Sunday, y’all. That means you’re gonna crush it this week and I hope for nothing but happy and magical things for you.
+  {"by":"did:plc:4ez37horoxc2mvqs7duloc6t","post":"3kbthaw5sda2a","day":SUN}, //I dread Sunday night, as a person who works on Monday morning
+  //{"by":"did:plc:g7nywl63frmuddq274whiwr6","post":"3kbl73mlt3s26","day":FRI}, //I'm so glad it's Friday
+  //{"by":"did:plc:7mmqjda2wiuzps7cexdqjw66","post":"3kbw5yruvei2t","day":MON}, //tomorrow is tuesday
 ];
 
 function getRandomInt(max) {
