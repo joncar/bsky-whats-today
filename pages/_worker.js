@@ -31,8 +31,12 @@ const POSTS = [
   {"by":"did:plc:a4put3mvd5pvc7id6ssfbqnb","post":"3kbtjgujufw2f","day":SUN}, //it's sunday already? I don't feel relaxed at all from the weekend.
   {"by":"did:plc:xn6v5l3dbtdyl26j7l245xpw","post":"3kbtixdt6gd2e","day":SUN}, //It’s Sunday, y’all. That means you’re gonna crush it this week and I hope for nothing but happy and magical things for you.
   {"by":"did:plc:4ez37horoxc2mvqs7duloc6t","post":"3kbthaw5sda2a","day":SUN}, //I dread Sunday night, as a person who works on Monday morning
-  //{"by":"did:plc:g7nywl63frmuddq274whiwr6","post":"3kbl73mlt3s26","day":FRI}, //I'm so glad it's Friday
-  //{"by":"did:plc:7mmqjda2wiuzps7cexdqjw66","post":"3kbw5yruvei2t","day":MON}, //tomorrow is tuesday
+  {"by":"did:plc:g7nywl63frmuddq274whiwr6","post":"3kbl73mlt3s26","day":FRI}, //I'm so glad it's Friday
+  {"by":"did:plc:7mmqjda2wiuzps7cexdqjw66","post":"3kbw5yruvei2t","day":MON}, //tomorrow is tuesday
+  {"by":"did:plc:oqbijttmayqui2xv3e2xwcdz","post":"3kd5fihn43t27","day":WED}, //wizard wednesday
+  {"by":"did:plc:vzgxukfxw4omo36mlyym6ho5","post":"3kek3rhjcj322","day":SUN}, //Enjoy your Sunday morning
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3ki7e5f4nqw25","day":FRI}, //thank goodness it's friday
+  {"by":"did:plc:2h5yo2dhkdo6r3tokotdqu3v","post":"3ki4n3un3st2m","day":WED}, //AT LEAST I MADE IT TO WEDNESDAY
 ];
 
 function getRandomInt(max) {
