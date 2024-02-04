@@ -37,6 +37,11 @@ const POSTS = [
   {"by":"did:plc:vzgxukfxw4omo36mlyym6ho5","post":"3kek3rhjcj322","day":SUN}, //Enjoy your Sunday morning
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3ki7e5f4nqw25","day":FRI}, //thank goodness it's friday
   {"by":"did:plc:2h5yo2dhkdo6r3tokotdqu3v","post":"3ki4n3un3st2m","day":WED}, //AT LEAST I MADE IT TO WEDNESDAY
+  {"by":"did:plc:tkzswasvcchz3ou4yvz72h5q","post":"3kk4zwucyiw2j","day":MON}, //Sorry to start your Monday on a bad note. Brace for impact.
+  {"by":"did:plc:ragtjsm2j2vknwkz3zp4oxrd","post":"3kkh6yfz7es2c","day":FRI}, //fridays are work days?
+  {"by":"did:plc:i6ocendj65mmddfndihajsky","post":"3kki4sujtgc2f","day":SAT}, //It's the weekend, baby
+  {"by":"did:plc:i6ocendj65mmddfndihajsky","post":"3kki4sujtgc2f","day":SUN}, //It's the weekend, baby
+  //{"by":"","post":"","day":}, //
 ];
 
 function getRandomInt(max) {
