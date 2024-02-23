@@ -41,6 +41,7 @@ const POSTS = [
   {"by":"did:plc:ragtjsm2j2vknwkz3zp4oxrd","post":"3kkh6yfz7es2c","day":FRI}, //fridays are work days?
   {"by":"did:plc:i6ocendj65mmddfndihajsky","post":"3kki4sujtgc2f","day":SAT}, //It's the weekend, baby
   {"by":"did:plc:i6ocendj65mmddfndihajsky","post":"3kki4sujtgc2f","day":SUN}, //It's the weekend, baby
+  {"by":"did:plc:llyvrdjsnfuycjykeaopusbt","post":"3kl3szizj6s2f","day":SAT}, //Hey I’m just a person in the corner saying remember it’s Saturday
   //{"by":"","post":"","day":}, //
 ];
 
