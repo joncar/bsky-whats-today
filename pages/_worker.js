@@ -42,6 +42,9 @@ const POSTS = [
   {"by":"did:plc:i6ocendj65mmddfndihajsky","post":"3kki4sujtgc2f","day":SAT}, //It's the weekend, baby
   {"by":"did:plc:i6ocendj65mmddfndihajsky","post":"3kki4sujtgc2f","day":SUN}, //It's the weekend, baby
   {"by":"did:plc:llyvrdjsnfuycjykeaopusbt","post":"3kl3szizj6s2f","day":SAT}, //Hey I’m just a person in the corner saying remember it’s Saturday
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kn2qsdt4gc2k","day":THU}, //if we try hard enough, tomorrow could be friday
+  {"by":"did:plc:6hit5rjdbmlnscmuk4bbtmuc","post":"3knu33w2qv32g","day":SAT}, // please note that I made this post on Saturday afternoon  make of that what you will
+  {"by":"did:plc:llyvrdjsnfuycjykeaopusbt","post":"3ko6crgzlhe2a","day":WED}, // Jerry it’s wednesdayy
   //{"by":"","post":"","day":}, //
 ];
 
