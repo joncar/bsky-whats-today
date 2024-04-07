@@ -1,1 +1,82 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What Is Today?</title>
+        <style type=""text/css">
+            html, body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Liberation Sans", Helvetica, Arial, sans-serif;
+            }
+            .post {
+                border: 1px solid rgb(66, 87, 108);
+                border-radius: 5px;
+                margin: 1em;
+                padding: 0.5em;
+            }
+            .post-name {
+                font-size: 17px; letter-spacing: 0.25px; font-weight: 700; line-height: 20px; color: rgb(11, 15, 20);
+            }
+            .post-handle {
+                font-size: 15px; letter-spacing: 0.25px; font-weight: 400; color: rgb(66, 87, 108);
+            }
+            .post-text {
+                font-size: 20px; letter-spacing: 0.25px; color: rgb(11, 15, 20); line-height: 26px;
+                margin-top: 0.25em;
+            }
+        </style>
+        <script type="module">
+            import { getPostForNow } from './posts.js';
+
+            async function bskyGet(url) {
+                const response = await fetch(url, {
+                    cache: 'force-cache'
+                });
+                const json = await response.json();
+                return json;
+            }
+
+            async function init() {
+                var posts = [];
+                var url = 'https://api.bsky.app/xrpc/app.bsky.feed.getPosts?';
+                var count = 0;
+                for (var post of getPostForNow()) {
+                    url += `uris=at://${post.by}/app.bsky.feed.post/${post.post}&`;
+                    count++;
+                    if (count == 25) {
+                        const json = await bskyGet(url);
+                        posts = posts.concat(json.posts);
+                        url = 'https://api.bsky.app/xrpc/app.bsky.feed.getPosts?';
+                        count = 0;
+                    }
+                }
+
+                if (count > 0) {
+                    const json = await bskyGet(url);
+                    posts = posts.concat(json.posts);
+                }
+
+                console.log(posts);
+                const data = document.getElementById('data');
+                const template = document.querySelector('#post-template');
+                for (var post of posts) {
+                    const cloned = template.content.cloneNode(true);
+                    cloned.querySelector('.post-name').innerText = post.author.displayName;
+                    cloned.querySelector('.post-handle').innerText = `@${post.author.handle}`;
+                    cloned.querySelector('.post-text').innerText = post.record.text;
+                    data.appendChild(cloned);
+                }
+            }
+
+            await init();
+        </script>
+    </head>
+    <body>
+        <div id="data"></div>
+        <template id="post-template">
+            <div class="post">
+                <div class="post-name" dir="auto"></div>
+                <div class="post-handle" dir="auto"></div>
+                <div class="post-text" dir="auto"></div>
+            </div>
+        </template>
+    </body>
+</html>

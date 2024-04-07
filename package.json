@@ -7,7 +7,8 @@
   "author": "Jon Caruana <jon@joncaruana.com>",
   "license": "MIT",
   "scripts": {
-    "publishFeed": "ts-node scripts/publishFeed.ts"
+    "publishFeed": "ts-node scripts/publishFeed.ts",
+    "dev": "npx wrangler pages dev pages"
   },
   "dependencies": {
     "@atproto/api": "^0.6.20",
