@@ -46,6 +46,12 @@ const POSTS = [
   {"by":"did:plc:6hit5rjdbmlnscmuk4bbtmuc","post":"3knu33w2qv32g","day":SAT}, // please note that I made this post on Saturday afternoon  make of that what you will
   {"by":"did:plc:llyvrdjsnfuycjykeaopusbt","post":"3ko6crgzlhe2a","day":WED}, // Jerry it’s wednesdayy
   {"by":"did:plc:qvzn322kmcvd7xtnips5xaun","post":"3kotkao3f432t","day":FRI}, // It's Friday? Good.
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kxyucgipof2q","day":THU}, // going to bed thinking it's thursday, for temporary morale
+  {"by":"did:plc:o7xt7svg2xtjbb4e2xqahqqc","post":"3kxnldyrihd2m","day":WED}, // img: its wednesday my dude
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kv4p6l2o7e2t","day":MON}, // img: MONDAY
+  {"by":"did:plc:ragtjsm2j2vknwkz3zp4oxrd","post":"3kx27vavgco2p","day":THU}, // It's Thursday, and you know what that means
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kuq2sbmkd62a","day":FRI}, // img: FRIDAY
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kudjlhtgwq2x","day":FRI}, // we made it, friday friends
   //{"by":"","post":"","day":}, //
 ];
 
