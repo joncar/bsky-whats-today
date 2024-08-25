@@ -52,6 +52,11 @@ const POSTS = [
   {"by":"did:plc:ragtjsm2j2vknwkz3zp4oxrd","post":"3kx27vavgco2p","day":THU}, // It's Thursday, and you know what that means
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kuq2sbmkd62a","day":FRI}, // img: FRIDAY
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kudjlhtgwq2x","day":FRI}, // we made it, friday friends
+  {"by":"did:plc:vzgxukfxw4omo36mlyym6ho5","post":"3l2fhhv64qn2f","day":FRI}, // Hearing a rumour that it’s Friday, hope this is true
+   {"by":"did:plc:qvzn322kmcvd7xtnips5xaun","post":"3l2a2loio2223","day":WED}, // Oh, I see, so this is how you're gonna be, Wednesday
+   {"by":"did:plc:ragtjsm2j2vknwkz3zp4oxrd","post":"3kzu7cgy4i42o","day":FRI}, // be advised, it friday. party hats on.
+   {"by":"did:plc:qvzn322kmcvd7xtnips5xaun","post":"3kzmrinlzyf2v","day":THU}, // Been sleeping so long I woke up with a caffeine withdrawal headache, how is your Thursday
+   {"by":"did:plc:otjqtwtgkoijkucppmxiq5fy","post":"3kz3eslavys2w","day":TUE}, // I regret to inform you it is only Tuesday my dude
   //{"by":"","post":"","day":}, //
 ];
 
