@@ -18,7 +18,6 @@ const POSTS = [
   {"by":"did:plc:jwr44rcxxiburi3pqaorbfqy","post":"3kbjpp2qenb2o","day":WED}, //Tomorrow is thursday again!🍰💚💚💚🧡
   {"by":"did:plc:4sqwgqljavegklkuau5caiu4","post":"3kbjplknpgu2y","day":THU}, //Good morning, angels 👋🏻
   {"by":"did:plc:pyjj4izabep7xpxb2f4kahod","post":"3kbjpe7o2c72o","day":THU}, //Good morning everyone
-  {"by":"did:plc:faqikui3tp2gjvbncliicd47","post":"3kbjhv6fqdz2r","day":THU}, //it's after 10pm on a Thursday what do you expect
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kbi4dg5xek2g","day":FRI}, //well at least it's Friday
   {"by":"did:plc:w3kny76pvkomvdg2u5jwwkzl","post":"3kbotraq4ly2r","day":SAT}, //Morning folks, happy Saturday! I hope you have an amazing weekend.
   {"by":"did:plc:4sisaumtbpmsotveogple4vi","post":"3kbotihlh4s2h","day":SAT}, //Morning everyone hope you have a super Saturday
@@ -53,10 +52,15 @@ const POSTS = [
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kuq2sbmkd62a","day":FRI}, // img: FRIDAY
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kudjlhtgwq2x","day":FRI}, // we made it, friday friends
   {"by":"did:plc:vzgxukfxw4omo36mlyym6ho5","post":"3l2fhhv64qn2f","day":FRI}, // Hearing a rumour that it’s Friday, hope this is true
-   {"by":"did:plc:qvzn322kmcvd7xtnips5xaun","post":"3l2a2loio2223","day":WED}, // Oh, I see, so this is how you're gonna be, Wednesday
-   {"by":"did:plc:ragtjsm2j2vknwkz3zp4oxrd","post":"3kzu7cgy4i42o","day":FRI}, // be advised, it friday. party hats on.
-   {"by":"did:plc:qvzn322kmcvd7xtnips5xaun","post":"3kzmrinlzyf2v","day":THU}, // Been sleeping so long I woke up with a caffeine withdrawal headache, how is your Thursday
-   {"by":"did:plc:otjqtwtgkoijkucppmxiq5fy","post":"3kz3eslavys2w","day":TUE}, // I regret to inform you it is only Tuesday my dude
+  {"by":"did:plc:qvzn322kmcvd7xtnips5xaun","post":"3l2a2loio2223","day":WED}, // Oh, I see, so this is how you're gonna be, Wednesday
+  {"by":"did:plc:ragtjsm2j2vknwkz3zp4oxrd","post":"3kzu7cgy4i42o","day":FRI}, // be advised, it friday. party hats on.
+  {"by":"did:plc:qvzn322kmcvd7xtnips5xaun","post":"3kzmrinlzyf2v","day":THU}, // Been sleeping so long I woke up with a caffeine withdrawal headache, how is your Thursday
+  {"by":"did:plc:otjqtwtgkoijkucppmxiq5fy","post":"3kz3eslavys2w","day":TUE}, // I regret to inform you it is only Tuesday my dude
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l3ar26belg2s","day":TUE}, // it's tuesday, lemon
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l37mptu57427","day":MON}, // ⓘ User thinks tomorrow is Monday
+  {"by":"did:plc:jdh2r4q3hxat3a7cdmjpfndh","post":"3l2msddqbzz2u","day":MON}, // Mondays, the transition from leisure to dread.
+😭☕️
+  {"by":"did:plc:w2vftbw2lqfjj3wdn3x4xhra","post":"3kzpilkldhy26","day":WED}, // Wait it's WEDNESDAY? I could've sworn today was Tuesday.
   //{"by":"","post":"","day":}, //
 ];
 
