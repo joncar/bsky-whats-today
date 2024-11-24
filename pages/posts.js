@@ -61,6 +61,8 @@ const POSTS = [
   {"by":"did:plc:jdh2r4q3hxat3a7cdmjpfndh","post":"3l2msddqbzz2u","day":MON}, // Mondays, the transition from leisure to dread.
 😭☕️
   {"by":"did:plc:w2vftbw2lqfjj3wdn3x4xhra","post":"3kzpilkldhy26","day":WED}, // Wait it's WEDNESDAY? I could've sworn today was Tuesday.
+  {"by":"did:plc:7dc2ec7iadso4vahsndlpofu","post":"3lba5dtgo6c2o","day":MON}, // me: “time to get up, it’s Monday”
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l557cznv4o2m","day":FRI}, // happy friday to everyone especially to this polish sausage and sauerkraut kolache
   //{"by":"","post":"","day":}, //
 ];
 
