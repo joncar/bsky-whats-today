@@ -63,6 +63,7 @@ const POSTS = [
   {"by":"did:plc:w2vftbw2lqfjj3wdn3x4xhra","post":"3kzpilkldhy26","day":WED}, // Wait it's WEDNESDAY? I could've sworn today was Tuesday.
   {"by":"did:plc:7dc2ec7iadso4vahsndlpofu","post":"3lba5dtgo6c2o","day":MON}, // me: “time to get up, it’s Monday”
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l557cznv4o2m","day":FRI}, // happy friday to everyone especially to this polish sausage and sauerkraut kolache
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l3dfoohjs626","day":WED}, // relax, i'm kidding. tuesday was yesterday
   //{"by":"","post":"","day":}, //
 ];
 
