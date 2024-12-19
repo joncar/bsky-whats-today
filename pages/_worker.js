@@ -1,4 +1,5 @@
 import { getPostForNow } from './posts';
+import { getAPA } from './apa';
 
 export default {
   async fetch(request, env) {
@@ -24,11 +25,19 @@ export default {
     }
 
     if (url.pathname.startsWith('/xrpc/app.bsky.feed.getFeedSkeleton')) {
-      var posts = getPostForNow().map(post => {
+      const feed = url.searchParams.get('feed');
+      var posts = [];
+      if (feed === 'at://did:web:joncaruana.com/app.bsky.feed.generator/whats-today') {
+        posts = getPostForNow();
+      }
+      else if (feed === 'at://did:web:joncaruana.com/app.bsky.feed.generator/apa') {
+        posts = getAPA();
+      }
+      var postsJson = posts.map(post => {
         return { "post": `at://${post.by}/app.bsky.feed.post/${post.post}` };
       });
       return new Response(JSON.stringify({
-        "feed": posts
+        "feed": postsJson
       }),
       {
         headers: {

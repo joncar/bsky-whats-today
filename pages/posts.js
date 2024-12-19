@@ -59,11 +59,15 @@ const POSTS = [
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l3ar26belg2s","day":TUE}, // it's tuesday, lemon
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l37mptu57427","day":MON}, // ⓘ User thinks tomorrow is Monday
   {"by":"did:plc:jdh2r4q3hxat3a7cdmjpfndh","post":"3l2msddqbzz2u","day":MON}, // Mondays, the transition from leisure to dread.
-😭☕️
   {"by":"did:plc:w2vftbw2lqfjj3wdn3x4xhra","post":"3kzpilkldhy26","day":WED}, // Wait it's WEDNESDAY? I could've sworn today was Tuesday.
   {"by":"did:plc:7dc2ec7iadso4vahsndlpofu","post":"3lba5dtgo6c2o","day":MON}, // me: “time to get up, it’s Monday”
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l557cznv4o2m","day":FRI}, // happy friday to everyone especially to this polish sausage and sauerkraut kolache
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l3dfoohjs626","day":WED}, // relax, i'm kidding. tuesday was yesterday
+  {"by":"did:plc:2darfo36xds4oznvip7x2ux7","post":"3kps7xo4yqt22","day":WED}, // “It is only Wednesday?”
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3kqshwmxmcs27","day":FRI}, // happy friday all
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3ksklttacl222","day":FRI}, // at least it's friday
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3krwxsgggbd2s","day":THU}, // thank goodness tomorrow's friday
+  {"by":"did:plc:ragtjsm2j2vknwkz3zp4oxrd","post":"3ldjgrf2k7s2b","day":WED}, // Only on Wednesdays, if you're lucky
   //{"by":"","post":"","day":}, //
 ];
 
