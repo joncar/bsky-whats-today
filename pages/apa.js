@@ -18,7 +18,7 @@ const POSTS = [
 
 export default POSTS;
 
-function getAPA() {
+export function getAPA() {
     const prng = prngRandom(Date.now());
     return [POSTS[Math.floor(prng() * POSTS.length)]];
 }
