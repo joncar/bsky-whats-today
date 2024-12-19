@@ -27,17 +27,19 @@ export default {
     if (url.pathname.startsWith('/xrpc/app.bsky.feed.getFeedSkeleton')) {
       const feed = url.searchParams.get('feed');
       var posts = [];
+      var debug = '';
       if (feed === 'at://did:web:joncaruana.com/app.bsky.feed.generator/whats-today') {
-        posts = getPostForNow();
+        ({posts, debug} = getPostForNow());
       }
       else if (feed === 'at://did:web:joncaruana.com/app.bsky.feed.generator/apa') {
-        posts = getAPA();
+        ({posts, debug} = getAPA());
       }
       var postsJson = posts.map(post => {
         return { "post": `at://${post.by}/app.bsky.feed.post/${post.post}` };
       });
       return new Response(JSON.stringify({
-        "feed": postsJson
+        "feed": postsJson,
+        "debug": debug
       }),
       {
         headers: {

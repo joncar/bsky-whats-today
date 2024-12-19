@@ -19,6 +19,12 @@ const POSTS = [
 export default POSTS;
 
 export function getAPA() {
-    const prng = prngRandom(Date.now());
-    return [POSTS[Math.floor(prng() * POSTS.length)]];
+    const seed = Date.now();
+    const prng = prngRandom(seed);
+    return {
+        'posts': [POSTS[Math.floor(prng() * POSTS.length)]],
+        'debug': {
+            'seed': seed
+        }
+    };
 }

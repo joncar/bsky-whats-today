@@ -97,5 +97,7 @@ function getPostFor(date) {
 }
 
 export function getPostForNow() {
-    return getPostFor(getNow());
+    return {
+      'posts': getPostFor(getNow())
+    };
 }
