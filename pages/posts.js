@@ -68,6 +68,11 @@ const POSTS = [
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3ksklttacl222","day":FRI}, // at least it's friday
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3krwxsgggbd2s","day":THU}, // thank goodness tomorrow's friday
   {"by":"did:plc:ragtjsm2j2vknwkz3zp4oxrd","post":"3ldjgrf2k7s2b","day":WED}, // Only on Wednesdays, if you're lucky
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3lhlmfkjrzs2r","day":FRI}, // at least it's friday
+  {"by":"did:plc:vzgxukfxw4omo36mlyym6ho5","post":"3lhll5e7vek2f","day":FRI}, // enjoy your friday (sharpen your teeth and eat the rich)
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3li436xqvu22x","day":FRI}, // remember friday? that was ten years ago
+  {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l557cznv4o2m","day":FRI}, // happy friday to everyone especially to this polish sausage and sauerkraut kolache
+  {"by":"did:plc:ey2ngl4l3fymyibjzhjx4dcy","post":"3lbwvh276ps2y","day":WED}, // I have constantly reminded myself several times today "It's Wednesday, not Tuesday, not Friday, just Wednesday, am I sure, it feels like Friday, but it might be Tuesday, but it's still Wednesday" and it's not even Wednesday afternoon yet.
   //{"by":"","post":"","day":}, //
 ];
 
