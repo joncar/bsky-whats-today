@@ -73,6 +73,7 @@ const POSTS = [
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3li436xqvu22x","day":FRI}, // remember friday? that was ten years ago
   {"by":"did:plc:vc7f4oafdgxsihk4cry2xpze","post":"3l557cznv4o2m","day":FRI}, // happy friday to everyone especially to this polish sausage and sauerkraut kolache
   {"by":"did:plc:ey2ngl4l3fymyibjzhjx4dcy","post":"3lbwvh276ps2y","day":WED}, // I have constantly reminded myself several times today "It's Wednesday, not Tuesday, not Friday, just Wednesday, am I sure, it feels like Friday, but it might be Tuesday, but it's still Wednesday" and it's not even Wednesday afternoon yet.
+  {"by":"did:plc:ss57ywhxcvh62qbdbfc4c252","post":"3ljgdsi3ah22p","day":SUN}, // Happy Sunday!
   //{"by":"","post":"","day":}, //
 ];
 
